@@ -1,10 +1,10 @@
-# 🤖 AI Chatbot Assistant
+# StudyAI - AI-Powered Academic Assistant
 
-A full-stack AI chatbot supporting **OpenAI GPT-4o** and **Google Gemini 1.5 Flash**, built with FastAPI and React + Vite.
+A full-stack AI chatbot supporting **Google Gemini 2.5 Flash**, built with FastAPI and React + Vite.
 
 ---
 
-## 🚀 Quick Start
+
 
 ### 1. Backend Setup
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-> API docs available at: http://localhost:8000/docs
+
 
 ### 2. Frontend Setup
 
@@ -37,11 +37,11 @@ npm install
 npm run dev
 ```
 
-> App available at: http://localhost:5173
+
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 AI-BOT/
@@ -72,20 +72,19 @@ AI-BOT/
 
 ---
 
-## 🔑 API Keys
+##  API Keys
 
-Get your keys here:
-- **OpenAI**: https://platform.openai.com/api-keys
+
 - **Google Gemini**: https://aistudio.google.com/app/apikey
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔄 Real-time switching between GPT-4o and Gemini 1.5 Flash
-- 💬 Full conversation history (last 10 messages sent to API)
-- 📝 Markdown rendering for AI responses (code blocks, bullets, tables)
-- ⌨️ Typing indicator while AI responds
-- 🎨 Dark premium UI with glassmorphism and animations
-- 💡 Suggestion chips on the welcome screen
-- ♿ Accessible ARIA roles and labels
+- Real-time switching between GPT-4o and Gemini 1.5 Flash
+- Full conversation history (last 10 messages sent to API)
+- Markdown rendering for AI responses (code blocks, bullets, tables)
+- Typing indicator while AI responds
+- Dark premium UI with glassmorphism and animations
+- Suggestion chips on the welcome screen
+- Accessible ARIA roles and labels
